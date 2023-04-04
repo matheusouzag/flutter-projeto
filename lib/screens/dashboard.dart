@@ -22,13 +22,13 @@ class Dashboard extends StatelessWidget {
                 IconData icone = Icons.food_bank;
                 if (index == 0) {
                   text =
-                      'Compre com o melhor da região Compre com o melhor da região Compre com o melhor da região Compre com o melhor da região Compre com o melhor da região Compre com o melhor da região Compre com o melhor da região Compre com o melhor da região';
+                  'Se você procura um supermercado que oferece produtos de qualidade, preços competitivos e um atendimento excepcional, então você precisa conhecer o nosso! Aqui no nosso supermercado, trabalhamos diariamente para garantir que nossos clientes tenham uma experiência de compra agradável e eficiente.';
                   icone = Icons.location_city;
                 } else if (index == 1) {
-                  text = 'Produtos frescos todos os dias';
+                  text = 'Se você é daqueles que preza por alimentos frescos e saborosos, precisa conhecer o nosso supermercado! Temos um setor exclusivo de frutas e verduras, onde nossos funcionários selecionam os melhores produtos diretamente dos produtores locais, garantindo que você leve para casa alimentos frescos e nutritivos.';
                   icone = Icons.local_florist;
                 } else if (index == 2) {
-                  text = 'Descontos exclusivos para você';
+                  text = 'Se você está em busca de economizar nas suas compras, precisa conhecer os descontos exclusivos que o nosso supermercado oferece! Aqui, temos uma variedade de produtos com preços reduzidos e promoções imperdíveis.';
                   icone = Icons.local_offer;
                 }
                 return Padding(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projeto_final/screens/products.dart';
+import 'package:projeto_final/screens/resposta.dart';
 
 class CarrinhoPage extends StatefulWidget {
   final List<Produto> produtos;
@@ -69,7 +70,7 @@ class _CarrinhoPageState extends State<CarrinhoPage> {
               Text('Total: R\$ ${total.toStringAsFixed(2)}'),
               ElevatedButton(
                 onPressed: () {
-                  // Implementar aqui a lógica para realizar o pagamento
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => Sucesso(),));
                 },
                 child: Text('Pagar'),
               ),
